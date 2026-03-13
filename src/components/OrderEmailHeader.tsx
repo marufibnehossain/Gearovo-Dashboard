@@ -125,7 +125,7 @@ export default function OrderEmailHeader({ order }: OrderEmailHeaderProps) {
           </div>
           <div className="min-w-0 flex-1 overflow-visible">
             <p className="text-sm font-semibold leading-relaxed text-[#3c4043]">
-              Gearovo <span className="font-normal text-[#5f6368]">&lt;hello@gearovo.store&gt;</span>
+              Gearovo <span className="font-normal text-[#5f6368]">&lt;support@gearovo.com&gt;</span>
             </p>
             <div className="mt-0.5 flex items-center gap-1 overflow-visible">
               <span className="text-xs leading-relaxed text-[#5f6368]">to {customerEmail}</span>
@@ -235,3 +235,4 @@ export default function OrderEmailHeader({ order }: OrderEmailHeaderProps) {
     </header>
   )
 }
+
