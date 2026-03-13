@@ -103,8 +103,9 @@ export default function OrderConfirmationEmailBody({ order }: OrderConfirmationE
 
       {/* Bottom footer */}
       <p className="mt-12 text-center text-xs text-gray-500">
-        Gearovo · hello@gearovo.store
+        Gearovo · support@gearovo.com
       </p>
     </div>
   )
 }
+
